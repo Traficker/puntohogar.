@@ -60,10 +60,10 @@
     }
     
     .glass-modal {
-      background: rgba(8, 12, 20, 0.92);
+      background: rgba(8, 12, 20, 0.95);
       backdrop-filter: blur(24px);
       -webkit-backdrop-filter: blur(24px);
-      border: 1px solid rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.15);
     }
     
     .ambient-orb {
@@ -155,6 +155,8 @@
           <a href="#servicios" onclick="closeMobileMenu()" class="px-4 py-2.5 rounded-lg bg-white/5 text-slate-200 font-medium">Servicios</a>
           <a href="#proyectos" onclick="closeMobileMenu()" class="px-4 py-2.5 rounded-lg bg-white/5 text-slate-200 font-medium">Proyectos</a>
           <a href="#contacto" onclick="closeMobileMenu()" class="px-4 py-2.5 rounded-lg bg-white/5 text-slate-200 font-medium">Contacto</a>
+          <a href="politica-de-privacidad.html" class="px-4 py-2.5 rounded-lg bg-emerald-500/10 text-emerald-400 font-medium">Política de Privacidad (Meta Ads)</a>
+          <a href="terminos-y-condiciones.html" class="px-4 py-2.5 rounded-lg bg-teal-500/10 text-teal-300 font-medium">Términos y Condiciones</a>
           <a href="#contacto" onclick="closeMobileMenu()" class="px-4 py-3 rounded-xl bg-emerald-500 text-slate-950 font-outfit font-bold text-center mt-2">Solicitar Cotización</a>
         </nav>
       </div>
@@ -417,7 +419,7 @@
             <div class="flex items-start gap-3">
               <input type="checkbox" id="habeas-consent" required class="mt-1 accent-emerald-500 rounded">
               <label for="habeas-consent" class="text-xs text-slate-400 leading-relaxed">
-                Autorizo el tratamiento de mis datos personales de acuerdo con la <button type="button" onclick="openLegalModal('privacy')" class="text-emerald-400 underline hover:text-emerald-300">Política de Privacidad y Habeas Data Ley 1581 de 2012</button> de Punto Hogar S.A.S.
+                Autorizo el tratamiento de mis datos personales de acuerdo con la <a href="politica-de-privacidad.html" target="_blank" class="text-emerald-400 underline hover:text-emerald-300 font-semibold">Política de Privacidad y Habeas Data Ley 1581 de 2012</a> de Punto Hogar S.A.S.
               </label>
             </div>
 
@@ -489,7 +491,7 @@
   </main>
 
   <!-- 8. FOOTER & LEGAL COMPLIANCE -->
-  <footer class="relative z-10 border-t border-white/10 bg-slate-950/80 pt-16 pb-12">
+  <footer class="relative z-10 border-t border-white/10 bg-slate-950/90 pt-16 pb-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
         
@@ -533,24 +535,26 @@
           </ul>
         </div>
 
-        <!-- COL 4: LEGAL COMPLIANCE & GOVERNANCE -->
-        <div>
-          <h4 class="font-outfit font-bold text-white text-sm uppercase tracking-wider mb-4">Cumplimiento Legal</h4>
-          <ul class="space-y-2.5 text-xs text-slate-400">
-            <li>
-              <button onclick="openLegalModal('privacy')" class="hover:text-emerald-400 transition-colors text-left">
-                📜 Política Habeas Data (Ley 1581/2012)
-              </button>
-            </li>
-            <li>
-              <button onclick="openLegalModal('terms')" class="hover:text-emerald-400 transition-colors text-left">
-                ⚖️ Términos & Condiciones (Ley 23/1982)
-              </button>
-            </li>
-            <li class="pt-2 text-[11px] text-slate-500">
-              Vigencia Fiscal y NIIF Grupo 2
-            </li>
-          </ul>
+        <!-- COL 4: PROMINENT LEGAL COMPLIANCE (VERIFIED FOR META ADS) -->
+        <div class="glass-card p-5 rounded-2xl border border-emerald-500/30 bg-slate-900/80">
+          <h4 class="font-outfit font-bold text-emerald-400 text-sm uppercase tracking-wider mb-3">
+            🛡️ Verificación Legal & Meta
+          </h4>
+          <p class="text-[11px] text-slate-400 mb-4 leading-relaxed">
+            Documentos legales oficiales para verificación de Meta Business, Habeas Data y comercio electrónico:
+          </p>
+          <div class="space-y-3">
+            <a href="politica-de-privacidad.html" target="_blank" class="block w-full py-2.5 px-3 rounded-xl bg-emerald-500/20 hover:bg-emerald-500 hover:text-slate-950 border border-emerald-500/40 text-emerald-300 font-semibold text-xs transition-all text-center">
+              📜 Política de Privacidad (Meta)
+            </a>
+            <a href="terminos-y-condiciones.html" target="_blank" class="block w-full py-2.5 px-3 rounded-xl bg-teal-500/20 hover:bg-teal-500 hover:text-slate-950 border border-teal-500/40 text-teal-300 font-semibold text-xs transition-all text-center">
+              ⚖️ Términos y Condiciones
+            </a>
+            <div class="flex justify-between text-[11px] pt-1">
+              <button onclick="openLegalModal('privacy')" class="text-slate-400 hover:text-white underline">Ver Modal Privacidad</button>
+              <button onclick="openLegalModal('terms')" class="text-slate-400 hover:text-white underline">Ver Modal Términos</button>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -567,10 +571,10 @@
     <div class="glass-modal p-6 rounded-2xl border border-emerald-500/40 shadow-2xl space-y-4">
       <div class="flex items-center gap-3">
         <span class="text-2xl">🍪</span>
-        <h4 class="font-outfit font-bold text-white text-base">Aviso de Cookies & Privacidad</h4>
+        <h4 class="font-outfit font-bold text-white text-base">Aviso de Cookies & Privacidad Meta</h4>
       </div>
       <p class="text-xs text-slate-300 leading-relaxed">
-        Utilizamos cookies esenciales y almacenamiento de preferencia local para ofrecer la mejor experiencia corporativa conforme a nuestra <button onclick="openLegalModal('privacy')" class="text-emerald-400 underline">Política Habeas Data</button>.
+        Utilizamos cookies esenciales y de preferencia técnica para ofrecer la mejor experiencia conforme a nuestra <a href="politica-de-privacidad.html" target="_blank" class="text-emerald-400 underline font-semibold">Política de Privacidad y Habeas Data</a>.
       </p>
       <div class="flex items-center justify-end gap-3 pt-2">
         <button onclick="acceptCookies()" class="px-5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-outfit font-bold text-xs transition-colors">
@@ -581,25 +585,26 @@
   </div>
 
   <!-- MODAL 1 & 2: LEGAL COMPLIANCE MODAL -->
-  <div id="legal-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-slate-950/80 backdrop-blur-md">
-    <div class="glass-modal w-full max-w-4xl max-h-[85vh] rounded-3xl overflow-hidden flex flex-col border border-white/20 shadow-2xl">
+  <div id="legal-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-slate-950/85 backdrop-blur-md">
+    <div class="glass-modal w-full max-w-4xl max-h-[90vh] rounded-3xl overflow-hidden flex flex-col border border-white/20 shadow-2xl">
       <!-- MODAL HEADER -->
-      <div class="p-6 border-b border-white/10 flex items-center justify-between bg-slate-900/80">
+      <div class="p-6 border-b border-white/10 flex items-center justify-between bg-slate-900/90">
         <div>
-          <h3 id="legal-modal-title" class="font-outfit font-bold text-xl text-white">Documento Legal</h3>
+          <h3 id="legal-modal-title" class="font-outfit font-bold text-2xl text-white">Documento Legal</h3>
           <p id="legal-modal-subtitle" class="text-xs text-slate-400 font-mono mt-1"></p>
         </div>
         <button onclick="closeLegalModal()" class="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center text-slate-300 hover:text-white">
           ✕
         </button>
       </div>
-      <!-- MODAL BODY -->
-      <div id="legal-modal-content" class="p-6 sm:p-8 overflow-y-auto space-y-6 flex-1">
+      <!-- MODAL BODY WITH ENHANCED READABLE FONT -->
+      <div id="legal-modal-content" class="p-6 sm:p-8 overflow-y-auto space-y-6 flex-1 text-base leading-relaxed text-slate-200">
         <!-- Injected via JavaScript -->
       </div>
       <!-- MODAL FOOTER -->
-      <div class="p-4 border-t border-white/10 bg-slate-900/80 flex justify-end">
-        <button onclick="closeLegalModal()" class="px-6 py-2.5 rounded-xl bg-emerald-500 text-slate-950 font-outfit font-bold text-xs">
+      <div class="p-4 border-t border-white/10 bg-slate-900/90 flex items-center justify-between">
+        <span class="text-xs text-slate-400">Punto Hogar S.A.S. • NIT 800199735-1</span>
+        <button onclick="closeLegalModal()" class="px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-outfit font-bold text-xs">
           Entendido y Cerrar
         </button>
       </div>
