@@ -1,7 +1,7 @@
 /**
  * CONFIGURACIÓN GLOBAL DE PUNTO HOGAR S.A.S.
- * Certificado de Existencia y Representación Legal - Cámara de Comercio de Cali
- * NIT: 800199735-1 | Matrícula Mercantil N°: 1375-50
+ * Certificado de Existencia y Representación Legal - Cámara de Comercio de Medellín para Antioquia
+ * NIT: 900681237-4 | Matrícula Mercantil N°: 21-501336-12
  */
 
 const APP_CONFIG = {
@@ -9,38 +9,38 @@ const APP_CONFIG = {
     name: "Punto Hogar S.A.S.",
     brandName: "Punto Hogar",
     slogan: "¡Tu lugar para un hogar más lindo y funcional!",
-    nit: "800199735-1",
-    matricula: "1375-50",
-    camaraComercio: "Cámara de Comercio de Cali",
-    fundationYear: 1997,
-    yearsExperience: "29+",
+    nit: "900681237-4",
+    matricula: "21-501336-12",
+    camaraComercio: "Cámara de Comercio de Medellín para Antioquia",
+    fundationYear: 2013,
+    yearsExperience: "13+",
     phone: "+57 310 467 0073",
     phoneDisplay: "+57 (310) 467-0073",
     phoneRaw: "3104670073",
     email: "ventas@puntohogar.space",
-    address: "Calle 5 B4 # 36 - 56",
-    city: "Cali",
-    department: "Valle del Cauca",
+    address: "Carrera 25 # 1 A SUR - 155, Oficina 1343",
+    city: "Medellín",
+    department: "Antioquia",
     country: "Colombia",
-    fullAddress: "Calle 5 B4 # 36 - 56, Cali, Valle del Cauca, Colombia",
+    fullAddress: "Carrera 25 # 1 A SUR - 155, Oficina 1343, Medellín, Antioquia, Colombia",
     domain: "puntohogar.space",
     schedule: "Lunes a Viernes: 8:00 AM - 6:00 PM | Sábados: 9:00 AM - 2:00 PM",
-    niifGroup: "Grupo 2 (NIIF para PYMES)",
+    niifGroup: "Grupo II (NIIF para PYMES)",
     judicialEmail: "ventas@puntohogar.space"
   },
 
   about: {
-    badge: "29 Años Transformando Espacios",
-    title: "Excelencia Arquitectónica & Diseño de Interiores de Alta Gama",
-    description: "Desde nuestra fundación el 25 de agosto de 1997 en la ciudad de Cali, Punto Hogar S.A.S. se ha posicionado como la compañía líder en transformación espacial, remodelación integral, amoblamiento ejecutivo y domótica avanzada. Respaldados por nuestra matrícula mercantil N° 1375-50 ante la Cámara de Comercio de Cali y bajo estrictos estándares de ingeniería HSEQ, unimos innovación, estética y funcionalidad para dar vida a hogares y corporaciones extraordinarias.",
+    badge: "13+ Años Transformando Espacios",
+    title: "Excelencia Arquitectónica & Diseño de Interiores en Medellín",
+    description: "Desde nuestra fundación el 06 de diciembre de 2013 en la ciudad de Medellín, Punto Hogar S.A.S. se ha posicionado como la compañía líder en transformación espacial, remodelación integral, amoblamiento ejecutivo y domótica avanzada. Respaldados por nuestra matrícula mercantil N° 21-501336-12 ante la Cámara de Comercio de Medellín para Antioquia y bajo estrictos estándares de ingeniería HSEQ, unimos innovación, estética y funcionalidad para dar vida a hogares y corporaciones extraordinarias.",
     mission: "Proveer soluciones arquitectónicas y de diseño de interiores que superen las expectativas de elegancia, confort y durabilidad de nuestros clientes, garantizando rigurosidad técnica y cumplimiento legal 100%.",
-    vision: "Ser consolidados internacionalmente como el referente de arquitectura interior y automatización residencial de mayor prestigio en el suroccidente colombiano y Latinoamérica."
+    vision: "Ser consolidados internacionalmente como el referente de arquitectura interior y automatización residencial de mayor prestigio en Antioquia y Latinoamérica."
   },
 
   stats: [
     { value: "+1,250", label: "Proyectos Ejecutados", detail: "Proyectos de alta gama entregados a satisfacción" },
     { value: "100%", label: "Cumplimiento HSEQ", detail: "Normas de calidad ISO 9001 y SG-SST" },
-    { value: "29+", label: "Años de Trayectoria", detail: "Constituida formalmente desde 1997" },
+    { value: "13+", label: "Años de Trayectoria", detail: "Constituida formalmente desde 2013" },
     { value: "99.8%", label: "Satisfacción Clientes", detail: "Garantía escrita y soporte post-entrega" }
   ],
 
@@ -114,10 +114,10 @@ const APP_CONFIG = {
 
   projects: [
     {
-      title: "Residencia Penthouse Ciudad Jardín",
+      title: "Penthouse El Poblado",
       category: "Interiorismo & Amoblamiento de Lujo",
       image: "p1.jpg",
-      location: "Ciudad Jardín, Cali",
+      location: "El Poblado, Medellín",
       year: "2026",
       summary: "Transformación arquitectónica de penthouse de 380m² con iluminación LED indirecta, tonos neutros y acabados en mármol."
     },
@@ -125,7 +125,7 @@ const APP_CONFIG = {
       title: "Renovación Gourmet & Cocina Integral",
       category: "Remodelación & Carpintería Fina",
       image: "p2.jpg",
-      location: "Granada, Cali",
+      location: "Llanogrande, Rionegro",
       year: "2025",
       summary: "Diseño e instalación de cocina isla en cuarzo calacatta, herrajes alemanes de cierre suave y barra social en madera de teca."
     },
@@ -133,7 +133,7 @@ const APP_CONFIG = {
       title: "Sede Corporativa & Oficinas Ejecutivas",
       category: "Amoblamiento & Arquitectura Comercial",
       image: "p3.jpg",
-      location: "Zona Oeste, Cali",
+      location: "Milla de Oro, Medellín",
       year: "2025",
       summary: "Adecuación integral de 3 pisos corporativos con paneles fonoabsorbentes, estaciones ergonómicas y cristales templados."
     },
@@ -141,7 +141,7 @@ const APP_CONFIG = {
       title: "Smart Residence & Control Domótico",
       category: "Domótica & Automatización",
       image: "p4.jpg",
-      location: "Pance, Cali",
+      location: "Envigado, Antioquia",
       year: "2026",
       summary: "Integración domótica completa en villa residencial: control de accesos biométricos, audio multi-zona y ambientación lumínica."
     }
@@ -151,12 +151,12 @@ const APP_CONFIG = {
     privacyPolicy: {
       title: "Política de Tratamiento de Datos Personales y Habeas Data",
       subtitle: "Ley 1581 de 2012 / Decreto 1377 de 2013 - República de Colombia",
-      lastUpdated: "10 de Agosto de 2026",
+      lastUpdated: "25 de Agosto de 2026",
       sections: [
         {
           num: "1",
           heading: "Identificación del Responsable del Tratamiento",
-          content: "PUNTO HOGAR S.A.S., identificada con NIT 800199735-1, con matrícula mercantil N° 1375-50 de la Cámara de Comercio de Cali, con domicilio principal en Calle 5 B4 # 36 - 56, Cali, Valle del Cauca, Colombia; correo electrónico de notificación legal: ventas@puntohogar.space, y teléfono de atención comercial: +57 310 467 0073, en calidad de Responsable del Tratamiento de Datos Personales, adopta la presente política en cumplimiento de la Ley 1581 de 2012, el Decreto 1377 de 2013 y demás normas concordantes."
+          content: "PUNTO HOGAR S.A.S., identificada con NIT 900681237-4, con matrícula mercantil N° 21-501336-12 de la Cámara de Comercio de Medellín para Antioquia, con domicilio principal en Carrera 25 # 1 A SUR - 155, Oficina 1343, Medellín, Antioquia, Colombia; correo electrónico de notificación legal: ventas@puntohogar.space, y teléfono de atención comercial: +57 (310) 467-0073, en calidad de Responsable del Tratamiento de Datos Personales, adopta la presente política en cumplimiento de la Ley 1581 de 2012, el Decreto 1377 de 2013 y demás normas concordantes."
         },
         {
           num: "2",
@@ -166,7 +166,7 @@ const APP_CONFIG = {
         {
           num: "3",
           heading: "Datos Recopilados y Finalidades del Tratamiento",
-          content: "Los datos recopilados a través de nuestros formularios web, canales telefónicos o interacciones comerciales (nombre, teléfono, correo electrónico, dirección física y requerimientos de proyectos) serán utilizados para: a) El procesamiento y emisión de cotizaciones y propuestas arquitectónicas; b) La ejecución formal de contratos de obra, remodelación o compraventa de mobiliario; c) La gestión de facturación, cobranza y obligaciones contables/fiscales según el Grupo 2 NIIF; d) La atención eficiente de solicitudes, peticiones, quejas y reclamos (PQRS); e) El envío de comunicaciones comerciales y novedades de servicios cuando hayan sido expresamente autorizadas."
+          content: "Los datos recopilados a través de nuestros formularios web, canales telefónicos o interacciones comerciales (nombre, teléfono, correo electrónico, dirección física y requerimientos de proyectos) serán utilizados para: a) El procesamiento y emisión de cotizaciones y propuestas arquitectónicas; b) La ejecución formal de contratos de obra, remodelación o compraventa de mobiliario; c) La gestión de facturación, cobranza y obligaciones contables/fiscales según el Grupo II NIIF; d) La atención eficiente de solicitudes, peticiones, quejas y reclamos (PQRS); e) El envío de comunicaciones comerciales y novedades de servicios cuando hayan sido expresamente autorizadas."
         },
         {
           num: "4",
@@ -176,7 +176,7 @@ const APP_CONFIG = {
         {
           num: "5",
           heading: "Procedimiento y Canales para el Ejercicio de Derechos",
-          content: "Los titulares pueden ejercer sus derechos mediante comunicación escrita remitida al correo electrónico ventas@puntohogar.space o entregada físicamente en la Calle 5 B4 # 36 - 56, Cali, Colombia. La consulta o reclamo deberá contener la identificación del titular, la descripción de los hechos que dan lugar a la solicitud y los documentos de soporte. Las consultas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la fecha de recibo. En caso de reclamos, el término de respuesta formal será de quince (15) días hábiles."
+          content: "Los titulares pueden ejercer sus derechos mediante comunicación escrita remitida al correo electrónico ventas@puntohogar.space o entregada físicamente en la Carrera 25 # 1 A SUR - 155, Oficina 1343, Medellín, Antioquia, Colombia. La consulta o reclamo deberá contener la identificación del titular, la descripción de los hechos que dan lugar a la solicitud y los documentos de soporte. Las consultas serán atendidas en un término máximo de diez (10) días hábiles contados a partir de la fecha de recibo. En caso de reclamos, el término de respuesta formal será de quince (15) días hábiles."
         },
         {
           num: "6",
@@ -191,7 +191,7 @@ const APP_CONFIG = {
         {
           num: "8",
           heading: "Vigencia y Modificaciones a la Política",
-          content: "La presente política rige a partir de su publicación el 10 de Agosto de 2026. Los datos personales permanecerán en nuestras bases de datos durante el tiempo que sea necesario para cumplir con las finalidades autorizadas y las obligaciones legales y contractuales. Cualquier modificación sustancial a este documento será notificada oportunamente en nuestro portal oficial puntohogar.space."
+          content: "La presente política rige a partir de su publicación el 25 de Agosto de 2026. Los datos personales permanecerán en nuestras bases de datos durante el tiempo que sea necesario para cumplir con las finalidades autorizadas y las obligaciones legales y contractuales. Cualquier modificación sustancial a este documento será notificada oportunamente en nuestro portal oficial puntohogar.space."
         }
       ]
     },
@@ -199,12 +199,12 @@ const APP_CONFIG = {
     termsAndConditions: {
       title: "Términos y Condiciones Generales de Uso y Contratación",
       subtitle: "Regido por la Legislación de la República de Colombia - Ley 23 de 1982 / Ley 527 de 1999",
-      lastUpdated: "10 de Agosto de 2026",
+      lastUpdated: "25 de Agosto de 2026",
       sections: [
         {
           num: "1",
           heading: "Titularidad del Sitio y Aceptación de las Condiciones",
-          content: "El presente portal web es de propiedad exclusiva de PUNTO HOGAR S.A.S. (NIT 800199735-1), sociedad comercial constituida conforme a las leyes colombianas, con domicilio en Cali, Valle del Cauca. El acceso, navegación y uso de este sitio atribuye la condición de Usuario e implica la aceptación plena e incondicional de todos los términos expuestos en este documento."
+          content: "El presente portal web es de propiedad exclusiva de PUNTO HOGAR S.A.S. (NIT 900681237-4), sociedad comercial constituida conforme a las leyes colombianas, con domicilio principal en Medellín, Antioquia. El acceso, navegación y uso de este sitio atribuye la condición de Usuario e implica la aceptación plena e incondicional de todos los términos expuestos en este documento."
         },
         {
           num: "2",
@@ -244,7 +244,7 @@ const APP_CONFIG = {
         {
           num: "9",
           heading: "Legislación Aplicable y Jurisdicción Competente",
-          content: "Los presentes Términos y Condiciones se rigen e interpretan conforme a las leyes de la República de Colombia. Cualquier controversia, diferencia o reclamación derivada de la interpretación o ejecución de este contrato será sometida prioritariamente a arreglo directo o conciliación, y en su defecto a la jurisdicción de los Jueces Ordinarios de la ciudad de Cali, Valle del Cauca, Colombia."
+          content: "Los presentes Términos y Condiciones se rigen e interpretan conforme a las leyes de la República de Colombia. Cualquier controversia, diferencia o reclamación derivada de la interpretación o ejecución de este contrato será sometida prioritariamente a arreglo directo o conciliación, y en su defecto a la jurisdicción de los Jueces Ordinarios de la ciudad de Medellín, Antioquia, Colombia."
         }
       ]
     }
@@ -512,7 +512,7 @@ function openLegalModal(type) {
       <h4 class="text-emerald-400 font-outfit font-bold text-lg mb-2">
         ${sec.num}. ${sec.heading}
       </h4>
-      <p class="text-slate-300 text-sm leading-relaxed">${sec.content}</p>
+      <p class="text-slate-300 text-base leading-relaxed">${sec.content}</p>
     </div>
   `).join("");
 
