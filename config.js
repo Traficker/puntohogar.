@@ -7,12 +7,16 @@
 const APP_CONFIG = {
   company: {
     legalName: "INVERSIONES E.R. S.A.S.",
-    name: "Punto Hogar (INVERSIONES E.R. S.A.S.)",
+    name: "INVERSIONES E.R. S.A.S.",
+    legalName: "INVERSIONES E.R. S.A.S.",
+    commercialName: "Punto Hogar",
     commercialName: "Punto Hogar",
     brandName: "Punto Hogar",
     slogan: "¡Tu lugar para un hogar más lindo y funcional!",
     nit: "900681237-4",
     matricula: "21-501336-12",
+    verificationCode: "WhcbjXOabkjfyCki",
+    renewalDate: "24 de Agosto de 2026",
     verificationCode: "WhcbjXOabkjfyCki",
     renewalDate: "24 de Agosto de 2026",
     lastRenewedYear: 2023,
